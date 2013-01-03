@@ -1,0 +1,30 @@
+<html>
+	<body>
+		<wicket:panel>
+			<table class="tabular-example">
+				<thead>
+					<tr>
+						<td colspan="1000"><h2 wicket:id="tableHeadline"/></td>
+					</tr>
+				</thead>
+				<tbody class="init-parameters">
+					<tr wicket:id="initParameters">
+						<td colspan="1000">Given
+						<strong wicket:id="parameterName"/>
+						is <strong wicket:id="parameterValue"/></td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr class="column-names">
+						<th wicket:id="columnNames"><span wicket:id="columnName"/></th>
+						<th/>
+					</tr>
+					<tr class="data-row" wicket:id="dataRows">
+						<td wicket:id="cellValues"><span wicket:id="cellValue"/></td>
+						<td><span wicket:id="rowDescription"/></td>
+					</tr>
+				</tbody>
+			</table>
+		</wicket:panel>
+	</body>
+</html>

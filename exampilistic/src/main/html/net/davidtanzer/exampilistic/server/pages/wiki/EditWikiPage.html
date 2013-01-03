@@ -1,0 +1,16 @@
+<html>
+	<body>
+		<wicket:container wicket:id="pageMenu"/>
+	
+		<h1>Edit Page</h1>
+		
+		<form wicket:id="editForm">
+			Package: <span wicket:id="basePackageName"/><input wicket:id="packageName"/><br/>
+			Title: <input wicket:id="title"/><br/>
+			<div wicket:id="editorParts">
+				<wicket:container wicket:id="editor"/>
+			</div>
+			<input type="submit" value="Save"/>
+		</form>
+	</body>
+</html>
